@@ -1,0 +1,160 @@
+body {
+  background-color: pink;
+}
+
+
+h1 {
+  color: black;
+  font-size: 90px;
+  font-style: italic;
+  font-family: brandon-grotesque, sans-serif;
+  padding: 2px;
+  margin: 2px;
+
+}
+
+p {
+  color: black;
+  font-size: 15px;
+  font-style: italic;
+  font-family: brandon-grotesque, sans-serif;
+
+}
+
+h5 {
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  font-family: brandon-grotesque, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: italic;
+}
+
+li {
+    display: grid;
+
+}
+
+.container1 {
+	/*flexbox*/
+  display: flex;
+	justify-content: center;
+  align-items: flex-start;
+
+	/*styling*/
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: #2e9c92;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+	/*styling*/
+	background-color: white;
+	padding: 2px;
+  margin: 2px;
+}
+
+div { box-sizing: border-box;}
+.container4 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  align-content: flex-end;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  height: 500px;
+  border: 1px solid:#000000;
+}
+
+.circle1 {
+  border: 5px solid #ff0000;
+  background-color: #ffccdd;
+  width: 250px;
+  height: 250px;
+  border-radius: 1000px;
+  margin: 0.5em;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.circle2 {
+    border: 5px solid #ff0000;
+    background-color: #ffccdd;
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    margin: 0.5em;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.circle3 {
+  border: 5px solid #ff0000;
+  background-color: #ffccdd;
+  width: 150px;
+  height: 250px;
+  border-radius: 1000px;
+  margin: 0.5em;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.circle4 {
+  border: 5px solid #ff0000;
+  background-color: #ffccdd;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+  margin: 0.5em;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.container5 {
+  padding: 20px;
+  margin: 20px;
+  content: center;
+  flex-wrap: nowrap;
+  background-color: #ffe6ee;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  font-family: brandon-grotesque, sans-serif;
+
+}
+
+.container2 {
+  /*flexbox*/
+  display: flow-root;
+  justify-content: flex-start;
+  align-items: flex-flex-start;
+
+  /*styling*/
+  width: 20%;
+  height: 350px;
+  text-align: left;
+  background-color: #ff8080;
+  justify-content: center;
+  align-items: flex-end;
+  font-style: italic;
+  font-family: brandon-grotesque, sans-serif;
+
+}
