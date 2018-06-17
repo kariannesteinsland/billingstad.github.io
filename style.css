@@ -169,22 +169,56 @@ div { box-sizing: border-box;}
     text-align: left;
 }
 
+
+
+
 .container7 {
   /*flexbox*/
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 
   /*styling*/
     background: #eef1d3;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-style: italic;
+    padding: 100px;
+    font-family: brandon-grotesque, sans-serif;
+    border-radius: 10px;
 
 }
 
 
-.image {
-  /*styling*/
-  
-}
+.item {
+   /*flexbox to center content in boxes*/
+   display: flow-root;
+   justify-content: center;
+   align-items: flex-start;
 
-.video {
+   /*styling*/
+   width: 100px;
+   height: 100px;
+   margin: 100px;
+   background: #a9a9ff;
+ }
 
+.knapp {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1000px;
+    width: 20%;
+    height: 10px;
+    font-style: italic;
+    font-family: brandon-grotesque, sans-serif;
 }
